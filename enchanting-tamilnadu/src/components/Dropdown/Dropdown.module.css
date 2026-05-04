@@ -1,0 +1,28 @@
+.dropdownWrapper {
+    position: relative;
+    .dropdown {
+        width: 100%;
+        padding: 1.7rem 2.2rem;
+        margin-top: 0.3rem;
+        font-size: 1rem;
+        color: #979797;
+        border: 1.5px solid #979797;
+        cursor: pointer;
+        outline: none;
+        background-color: #f7f7f7;
+        appearance: none;
+    }
+
+            .dropdownIcon {
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #000;
+            pointer-events: none
+        }
+
+    .dropdown:focus {
+        border-color: #3f454b;
+    }
+}

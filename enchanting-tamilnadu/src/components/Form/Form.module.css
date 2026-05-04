@@ -1,0 +1,40 @@
+.formContainer {
+    background-color: #f7f7f7;
+    padding: 5.3rem 0 6.3rem;
+
+    .formHeadingContainer {
+        width: 40.5%;
+        margin: auto;
+
+    }
+
+    .formWrapper {
+        width: 40.5%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+        .dropdownWrapper {
+            width: 111%;
+        }
+
+        .formButton {
+            align-self: flex-start;
+            margin-top: 1.7rem;
+        }
+    }
+
+    .toast {
+        width: 50%;
+        padding: 3rem 4rem;
+        margin: 3rem auto;
+        background-color: #702053;
+        color: #fff;
+        font-size: 1.5rem;
+
+
+        .toastHighlight {
+            font-weight: 600;
+        }
+    }
+}

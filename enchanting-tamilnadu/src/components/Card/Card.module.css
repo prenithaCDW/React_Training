@@ -1,0 +1,37 @@
+.cardCards {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+
+    .cardImageContainer {
+        width: 100%;
+
+        .cardImage {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .cardHeading {
+        padding: 0.95rem 0 0.3rem;
+        font-size: 2.2rem;
+        font-weight: 250;
+        letter-spacing: 1px;
+    }
+
+    .cardCity {
+        padding: 0.5rem 0 1.8rem;
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+    .cardContent {
+        flex-grow: 1;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.2;
+        font-weight: 370;
+        text-align: justify;
+        margin-bottom: 1.4rem;
+    }
+}

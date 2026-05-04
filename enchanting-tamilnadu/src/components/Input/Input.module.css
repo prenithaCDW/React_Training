@@ -1,0 +1,15 @@
+.formWrapperInput {
+    width: 100.07%;
+    padding: 1.7rem 2.2rem;
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    border: 1.5px solid #979797;
+    color: #979797;
+    outline: none;
+    cursor: pointer;
+    background-color: #f7f7f7;
+}
+
+.formWrapperInput:focus {
+    border-color: #3f454b;
+}

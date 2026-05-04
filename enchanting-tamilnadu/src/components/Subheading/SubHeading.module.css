@@ -1,0 +1,14 @@
+    .subHeadingHeader {
+        width: 100%;
+        color: #702053;
+        font-size: 3.05rem;
+        font-weight: 450;
+    }
+
+    .subHeadingContent {
+        width: 100%;
+        padding-top: 0.2rem;
+        color: #8e4f79;
+        font-size: 1.48rem;
+        font-weight: 350;
+    }

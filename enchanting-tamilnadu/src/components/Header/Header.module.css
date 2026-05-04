@@ -1,0 +1,36 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.9rem 4.525rem 2rem;
+
+    .logoContainer {
+        height: 2.2rem;
+        width: 8.8rem;
+
+        .logoImage {
+            width: 100%;
+        }
+    }
+
+    .headerLinks {
+        display: flex;
+        gap: 3.8rem;
+        font-size: 17px;
+        list-style: none;
+
+        .headerLinkTag {
+            color: #702053;
+            text-decoration: none;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .headerContainer {
+        padding: 2.9rem 2.525rem 2rem;
+        .headerLinks {
+            gap: 1rem;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.subHeadingContainer {
+    padding: 6.2rem 0 2.5rem 7.5rem;
+}
+
+.cardContainer {
+    padding: 0.5rem 7.5rem 5rem;
+}
+
+@media(max-width:768px) {
+    .subHeadingContainer {
+        padding: 6.2rem 0 2.5rem 2.5rem;
+    }
+
+    .cardContainer {
+        padding: 0.5rem 2.5rem 5rem;
+    }
+}
