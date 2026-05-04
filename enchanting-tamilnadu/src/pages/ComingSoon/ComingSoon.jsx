@@ -1,8 +1,12 @@
 import React from 'react'
 import styles from "./ComingSoon.module.css";
-const ComingSoon = ({title}) => {
+import Header from "../../components/Header/Header.jsx";
+const ComingSoon = ({ title }) => {
   return (
-    <div className={styles.container}>{title} Page -ComingSoon</div>
+    <>
+      <Header />
+      <div className={styles.container}>{title} Page -ComingSoon</div>
+    </>
   )
 }
 

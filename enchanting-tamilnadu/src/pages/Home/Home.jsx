@@ -1,6 +1,5 @@
 import Header from "../../components/Header/Header.jsx";
 import Promo from "../../components/Promo/Promo.jsx";
-import SubHeading from "../../components/Subheading/SubHeading.jsx";
 import Form from "../../components/Form/Form.jsx";
 import CardGrid from '../../components/CardGrid/CardGrid.jsx';
 import { useAllPlaces } from "../../hooks/useAllPlace.js";
@@ -19,7 +18,8 @@ const Home = () => {
 
             {/* subheading */}
             <section className={styles.subHeadingContainer}>
-                <SubHeading heading={SUB_HEADING.promo.heading} content={SUB_HEADING.promo.content} />
+                <h2 className={styles.subHeadingHeader}>{SUB_HEADING.promo.heading} </h2>
+                <p className={styles.subHeadingContent}>{SUB_HEADING.promo.content}</p>
             </section>
 
             {/* card */}

@@ -70,6 +70,21 @@
 
 .destinationHeadingContainer {
   padding: 2.5rem 7.5rem;
+
+  .subHeadingHeader {
+    width: 100%;
+    color: #702053;
+    font-size: 3.05rem;
+    font-weight: 450;
+  }
+
+  .subHeadingContent {
+    width: 100%;
+    padding-top: 0.2rem;
+    color: #8e4f79;
+    font-size: 1.48rem;
+    font-weight: 350;
+  }
 }
 
 .destinationRelatedPlacesContainer {
@@ -77,33 +92,31 @@
 }
 
 @media(max-width:1024px) {
-    .destinationContainer {
-        flex-direction: column;
+  .destinationContainer {
+    flex-direction: column;
 
-        .destinationLeft{
-            width: 100%;
-            padding: 11rem 1rem 1rem;
+    .destinationLeft {
+      width: 100%;
+      padding: 11rem 1rem 1rem;
 
-            .destinationPlace  {
-                width: 80%;
+      .destinationPlace {
+        width: 80%;
 
-            }
-        }
-
-        .destinationRight{
-            padding: 1rem;
-            width: 100%;
-        }
+      }
     }
 
-    .destinationContentContainer {
-        padding: 7rem 1.5rem 0;
-          font-size: 1.2rem;
+    .destinationRight {
+      padding: 1rem;
+      width: 100%;
     }
+  }
 
-    .destinationRelatedPlacesContainer{
-        padding: 0 1rem 6rem 3rem;
-    }
+  .destinationContentContainer {
+    padding: 7rem 1.5rem 0;
+    font-size: 1.2rem;
+  }
+
+  .destinationRelatedPlacesContainer {
+    padding: 0 1rem 6rem 3rem;
+  }
 }
-
-

@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import Header from "../../components/Header/Header.jsx";
-import SubHeading from "../../components/Subheading/SubHeading.jsx";
 import Form from "../../components/Form/Form.jsx";
 import CardGrid from "../../components/CardGrid/CardGrid.jsx";
 import FallbackImage from "../../components/FallbackImage/FallbackImage.jsx";
@@ -10,6 +9,7 @@ import { images } from "../../constants/image.js";
 import { normalizeKey } from "../../utils/stringLower.js";
 import { SUB_HEADING } from "../../constants/subHeading.js";
 import styles from "./Destination.module.css";
+
 
 const Destination = () => {
   const { placeId } = useParams();
@@ -58,7 +58,8 @@ const Destination = () => {
 
       {/* sub heading */}
       <section className={styles.destinationHeadingContainer}>
-        <SubHeading heading={SUB_HEADING.destination.heading} content={`${SUB_HEADING.destination.content} ${placeId}`} />
+                        <h2 className={styles.subHeadingHeader}>{SUB_HEADING.destination.heading} </h2>
+                <p className={styles.subHeadingContent}>{`${SUB_HEADING.destination.content} ${placeId}`} </p>
       </section>
 
       {/* grid */}

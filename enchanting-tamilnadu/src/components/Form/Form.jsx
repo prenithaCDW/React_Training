@@ -3,7 +3,6 @@ import Button from '../Button/Button.jsx';
 import { BUTTON } from '../../constants/button.js';
 import styles from "./Form.module.css";
 import { SUB_HEADING } from '../../constants/subHeading.js';
-import SubHeading from '../Subheading/SubHeading.jsx';
 import Input from '../Input/Input.jsx';
 import LabelInput from '../LabelInput/LabelInput.jsx';
 import Dropdown from '../Dropdown/Dropdown.jsx';
@@ -26,7 +25,8 @@ const Form = ({ places = [] }) => {
         <>
             <section className={styles.formContainer}>
                 <section className={styles.formHeadingContainer}>
-                    <SubHeading heading={SUB_HEADING.form.heading} content={SUB_HEADING.form.content} />
+                    <h2 className={styles.subHeadingHeader}>{SUB_HEADING.form.heading} </h2>
+                    <p className={styles.subHeadingContent}>{SUB_HEADING.form.content}</p>
                 </section>
 
                 <form className={styles.formWrapper} onSubmit={formSubmit}>
