@@ -1,0 +1,32 @@
+.premiumContainer {
+    padding: 6.8rem 14rem;
+
+    .imageContainer {
+        width: 100%;
+
+        .premiumImage {
+            height: 75vh;
+            width: 100%;
+        }
+    }
+
+    .overlay {
+        position: absolute;
+        inset:0;
+        top:40rem;
+        text-align: center;
+        color: #ffffff;
+
+        .premiumHeading {
+            font-size: 4.9rem;
+            font-weight: 700;
+            letter-spacing: 0.1px;
+            margin-bottom: 0.5rem;
+        }
+
+        .premiumSubHeading {
+            font-size: 5.1rem;
+            font-weight: 300;
+        }
+    }
+}

@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wood Classic Sofa Set - 3 Seater",
+      "price": 26000,
+      "description": "Premium wooden frame with soft fabric cushioning designed for modern living rooms.",
+      "guarantee": "2",
+      "category": "couch",
+      "image": "./demo.png"
+    },
+    {
+      "id": 2,
+      "name": "Luxury Fabric Couch - 3 Seater",
+      "price": 28500,
+      "description": "Elegant fabric couch with strong frame support and comfortable seating.",
+      "guarantee": "1",
+      "category": "couch",
+      "image": "./demo.png"
+    },
+    {
+      "id": 3,
+      "name": "Modern Grey Sofa Set",
+      "price": 31000,
+      "description": "Minimalist grey sofa perfect for contemporary interiors.",
+      "guarantee": "3",
+      "category": "couch",
+      "image": "./demo.png"
+    },
+    {
+      "id": 4,
+      "name": "Premium Comfort Couch",
+      "price": 29500,
+      "description": "Designed with extra cushioning for maximum comfort and durability.",
+      "guarantee": "5",
+      "category": "couch",
+      "image": "./demo.png"
+    },
+    {
+      "id": 5,
+      "name": "Compact Living Room Sofa",
+      "price": 22000,
+      "description": "Compact size sofa ideal for apartments and small living rooms.",
+      "guarantee": "2",
+      "category": "couch",
+      "image": "./demo.png"
+    },
+    {
+      "id": 6,
+      "name": "Classic Wooden Arm Couch",
+      "price": 27000,
+      "description": "Traditional wooden armrest couch with premium finish.",
+      "guarantee": "1",
+      "category": "couch",
+      "image": "./demo.png"
+    },
+    {
+      "id": 7,
+      "name": "Beige Fabric Sofa Set",
+      "price": 30000,
+      "description": "Soft beige upholstery with elegant design for stylish homes.",
+      "guarantee": "3",
+      "category": "couch",
+      "image": "./demo.png"
+    },
+    {
+      "id": 8,
+      "name": "Modern L-Shaped Couch",
+      "price": 42000,
+      "description": "Spacious L-shaped couch suitable for large living areas.",
+      "guarantee": "3",
+      "category": "chair",
+      "image": "./demo.png"
+    },
+    {
+      "id": 9,
+      "name": "Minimalist White Sofa",
+      "price": 33000,
+      "description": "Clean white finish with high-density foam seating.",
+      "guarantee": "1",
+      "category": "couch",
+      "image": "./demo.png"
+    },
+    {
+      "id": 10,
+      "name": "Urban Style Fabric Couch",
+      "price": 29000,
+      "description": "Urban design couch with durable upholstery fabric.",
+      "guarantee": "4",
+      "category": "chair",
+      "image": "./demo.png"
+    },
+    {
+      "id": 11,
+      "name": "Luxury Leather Sofa",
+      "price": 48000,
+      "description": "Premium leather finish couch with superior comfort.",
+      "guarantee": "5",
+      "category": "chair",
+      "image": "./demo.png"
+    },
+    {
+      "id": 12,
+      "name": "Compact Studio Couch",
+      "price": 21000,
+      "description": "Perfect compact couch designed for studio apartments.",
+      "guarantee": "1",
+      "category": "chair",
+      "image": "./demo.png"
+    },
+    {
+      "id": 13,
+      "name": "Elegant Dark Grey Sofa",
+      "price": 32500,
+      "description": "Dark grey sofa with stylish legs and durable fabric.",
+      "guarantee": "3",
+      "category": "chair",
+      "image": "./demo.png"
+    },
+    {
+      "id": 14,
+      "name": "Premium Lounge Couch",
+      "price": 39000,
+      "description": "Wide lounge couch designed for relaxed seating experience.",
+      "guarantee": "2",
+      "category": "chair",
+      "image": "./demo.png"
+    },
+    {
+      "id": 15,
+      "name": "Contemporary Designer Sofa",
+      "price": 45000,
+      "description": "Designer sofa with modern aesthetics and strong build quality.",
+      "guarantee": "4",
+      "category": "chair",
+      "image": "./demo.png"
+    }
+  ]
+}

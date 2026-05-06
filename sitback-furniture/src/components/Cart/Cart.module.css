@@ -1,0 +1,135 @@
+.cartContainer {
+	position: fixed;
+	right:0;
+	height:100%;
+	width: 342.5px;
+	padding: 7.2rem 2.6rem 8rem;
+	background-color: #f7f7f7;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+
+	.cartHeading {
+		padding-bottom: 0.4rem;
+		margin-bottom: 2rem;
+		border-bottom: 2px solid;
+		font-size: 1rem;
+		font-weight: 600;
+		width: fit-content;
+	}
+
+	/* cart item */
+	.cartItemContainer {
+		display: flex;
+		flex-direction: column;
+		gap: 2.3rem;
+		padding-left: 0.7rem;
+
+		.cartItemCard {
+			position: relative;
+			display: flex;
+			gap: 0.2rem;
+			background: #ffffff;
+			border-radius: 14px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+			.cartItemImageContainer {
+				position: relative;
+				top: 0.5rem;
+				right: 0.7rem;
+				width: 124px;
+				height: 82px;
+
+				img {
+					width: 100%;
+					height: 100%;
+					border-radius: 12px;
+				}
+			}
+
+			.cartItemContent {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+
+				.cartItemName {
+					font-size: 0.8rem;
+					font-weight: 300;
+					margin-bottom: 0.35rem;
+				}
+
+				.cartItemPrice {
+					font-size: 0.7rem;
+					font-weight: 400;
+				}
+
+				.countContainer {
+					position: absolute;
+					right: 0.7rem;
+					bottom: -0.5rem;
+					display: flex;
+					align-items: center;
+					gap: 0.9rem;
+					padding: 0.3rem 0.7rem;
+					background: #ffffff;
+					border-radius: 5px;
+					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+					button {
+						background: none;
+						border: none;
+						cursor: pointer;
+						padding: 0;
+					}
+
+					.countMinus,
+					.countPlus {
+						font-size: 1rem;
+						font-weight: 100;
+						color: #000;
+					}
+
+					.count {
+						font-size: 0.7rem;
+						font-weight: 500;
+						color: #000;
+						min-width: 0.8rem;
+						text-align: center;
+					}
+				}
+			}
+
+		}
+	}
+}
+
+.checkoutContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 351px;
+	padding: 1.8rem 2.3rem;
+	background: #ffffff;
+	border-top: 1px solid #eee;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+	.amountContainer {
+		display: flex;
+		flex-direction: column;
+		gap: 0.35rem;
+
+		.totalAmountLabel {
+			font-size: 0.7rem;
+			color: #3d3b3b;
+		}
+
+		.totalAmount {
+			font-size: 0.95rem;
+			font-weight: 200;
+			color: #000;
+		}
+	}
+}

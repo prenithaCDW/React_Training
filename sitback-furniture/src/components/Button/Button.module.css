@@ -1,0 +1,18 @@
+.button {
+    cursor: pointer;
+    transition: 0.3s ease;
+    outline: none;
+    border: none;
+    background-color: #050400;
+    color: #ffffff;
+    font-size: 0.8rem;
+    padding: 0.7rem 1.3rem;
+    border-bottom-right-radius: 7px ;
+    &:hover {
+        color:#3b8624;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+}

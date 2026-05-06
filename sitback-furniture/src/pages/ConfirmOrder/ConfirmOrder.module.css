@@ -1,0 +1,38 @@
+.confirmContainer {
+    padding: 9rem 10rem;
+
+    .confirmHeading {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 0.85rem;
+    }
+
+    .confirmMessage {
+        font-size: 1.05rem;
+        color: #010101;
+        margin-bottom: 1.2rem;
+    }
+
+    .confirmItemsGrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2.6rem;
+        row-gap: 2.8rem;
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .totalContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 1.5rem;
+        border-top: 2px solid #e5e5e5;
+    }
+
+    .totalLabel,
+    .totalAmount {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+}
